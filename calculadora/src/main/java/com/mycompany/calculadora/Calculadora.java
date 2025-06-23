@@ -20,4 +20,11 @@ public class Calculadora {
     public int multiplicacao(int x, int y) {
         return x * y;
     }
+    
+    public double divisao(int x, int y) throws ArithmeticException {
+        if (y == 0) {
+            throw new ArithmeticException("A divisão por zero não é possivel");
+        }
+        return (double) x / y;
+    }
 }

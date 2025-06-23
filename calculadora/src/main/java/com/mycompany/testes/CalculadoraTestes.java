@@ -19,7 +19,7 @@ public class CalculadoraTestes {
     // Testes da soma
     @Test
     void testarSoma() {
-        assertEquals(5, calculadora.soma(7, 3));
+        assertEquals(10, calculadora.soma(7, 3));
         assertEquals(-1, calculadora.soma(2, -3));
         assertEquals(0, calculadora.soma(0, 0));
     }
@@ -35,7 +35,7 @@ public class CalculadoraTestes {
     // Testes da multiplicação
     @Test
     void testarMultiplicacao() {
-        assertEquals(6, calculadora.multiplicacao(3, 7));
+        assertEquals(21, calculadora.multiplicacao(3, 7));
         assertEquals(-6, calculadora.multiplicacao(2, -3));
         assertEquals(0, calculadora.multiplicacao(0, 3));
     }
